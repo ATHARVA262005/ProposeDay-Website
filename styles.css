@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8e7e7;
+  }
+  #proposal {
+    text-align: center;
+    color: #ff4d4d;
+  }
+  #buttons {
+    margin-top: 20px;
+  }
+  #yesButton, #noButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  #yesButton:hover, #noButton:hover {
+    background-color: #ff3333;
+  }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+    #proposal {
+      margin-bottom: 20px;
+    }
+  }
